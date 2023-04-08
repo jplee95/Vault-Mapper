@@ -7,6 +7,7 @@ find_package(glfw3 REQUIRED CONFIG)
 find_package(glm REQUIRED CONFIG)
 
 add_executable(mapper main.cpp bitmap.hpp types.hpp)
+set_target_properties(mapper PROPERTIES OUTPUT_NAME "VaultMapper")
 
 target_include_directories(mapper
         PRIVATE
