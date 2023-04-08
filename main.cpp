@@ -1498,15 +1498,6 @@ render( ) {
         draw_rect(rect { { { (global_state.window.size.x - 256) >> 1, (global_state.window.size.y - 256) >> 1 }, { 256, 256 } }, textures::all, uv_translation::rot_0 });
     }
     
-    render_map_scale( );
-    
-    if(global_state.enable_global_keys) {
-        // Global keys dot
-        enable_translation(false);
-        bind_texture(global_state.opengl.textures.texture_id);
-        draw_rect(rect { { { 8, global_state.window.size.y - 16 - 8 }, glm::uvec2(16, 16) * global_state.global_scale }, textures::player_dot, uv_translation::rot_0 });
-    }
-    
     if(global_state.show_help) {
         // Help
         enable_translation(false);
@@ -1518,4 +1509,14 @@ render( ) {
         bind_texture(global_state.opengl.textures.texture_id);
         draw_rect(rect { { { 12, 12 }, { 32, 32 } }, textures::help_text, uv_translation::rot_0 });
     }
+    
+    if(global_state.enable_global_keys) {
+        // Global keys dot
+        enable_translation(false);
+        bind_texture(global_state.opengl.textures.texture_id);
+        draw_rect(rect { { { 8, global_state.window.size.y - 16 - 8 }, glm::uvec2(16, 16) * global_state.global_scale }, textures::player_dot, uv_translation::rot_0 });
+    }
+    
+    render_map_scale( );
+    
 }
