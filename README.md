@@ -2,6 +2,7 @@
 
 [![GitHub](https://img.shields.io/github/license/jplee95/Vault-Mapper)](/LICENSE)
 [![OS](https://img.shields.io/badge/OS-Windows-blue)]()
+[![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/jplee95/Vault-Mapper/latest/VaultMapper.zip)](https://github.com/jplee95/Vault-Mapper/releases/latest)
 
 Tool for mapping the Vault in Minecraft Vault Hunters mod pack
 
