@@ -31,7 +31,7 @@ Required external libriaries:
 
 Pre-included external libraries:
 * [GLAD](https://glad.dav1d.de/)
-* [GLM](https://github.com/g-truc/glm) Version: 0.9.9.9
+* [LodePNG](https://lodev.org/lodepng/)
 
 ## Release Notes
 
