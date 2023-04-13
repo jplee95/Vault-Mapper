@@ -20,8 +20,6 @@ Global keyboard input can be toggled on and off with specified keybindings.
 
 ## Compiling
 
-Cmake version: 3.21
-
 Supported Compilers:
 * GCC 12.1
 * Any C++17 compilers
